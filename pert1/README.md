@@ -8,4 +8,5 @@ Menghubungkan ke github
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ba7a06ae-d72f-48fb-9d7f-f808215ce7a3" />
 
 Hasil yang sudah dihubungkan dengan github
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/aaef7db3-212f-4dd0-a91d-017200c399d0" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/471da06b-b5c6-404b-9634-8705c30eff72" />
+
