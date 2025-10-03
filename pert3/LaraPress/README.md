@@ -1,61 +1,74 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Nama : Daffa Yassar Ahmad
+# NPM : 4523210032
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# 📑 Laporan Proyek LaraPress
+*Aplikasi Blog Sederhana berbasis Laravel*
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📝 Pendahuluan
+Laravel adalah salah satu framework PHP yang paling populer digunakan untuk membangun aplikasi web modern.  
+Proyek ini bernama **LaraPress**, yaitu aplikasi blog sederhana yang digunakan sebagai sarana pembelajaran teori **instalasi, konfigurasi, dan membuat halaman pertama** dengan Laravel.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🎯 Tujuan
+1. Memahami proses instalasi Laravel.
+2. Mampu melakukan konfigurasi dasar pada proyek Laravel.
+3. Menjalankan server lokal dan menampilkan halaman pertama aplikasi.
+4. Mendokumentasikan hasil instalasi dan konfigurasi dalam bentuk laporan.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📖 Teori Singkat
+- **Instalasi**: Proses menyiapkan framework Laravel dengan dependensi yang dibutuhkan menggunakan Composer.  
+- **Konfigurasi**: Mengatur file `.env` untuk koneksi database, key aplikasi, serta pengaturan dasar lainnya.  
+- **Halaman Pertama**: Setelah server dijalankan menggunakan `php artisan serve`, Laravel secara default menampilkan halaman welcome sebagai tanda aplikasi siap digunakan.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ⚙️ Langkah Instalasi & Konfigurasi
 
-### Premium Partners
+### Langkah 1: Instalasi Proyek Laravel "LaraPress"
+- Buka Terminal: Jalankan terminal Kita. Jika menggunakan Laragon, cara termudah adalah klik tombol "Terminal" di jendela Laragon. Ini akan membuka terminal di direktori yang tepat.
+- Navigasi ke Direktori Web: Pastikan Kita berada di dalam document root server lokal Kita. Untuk Laragon, itu adalah C:\laragon\www . Untuk XAMPP, C:\xampp\htdocs.
+- Jalankan Perintah Instalasi: Ketik perintah berikut dan tekan Enter. Perintah ini akan menyuruh Composer untuk membuat proyek Laravel baru di dalam folder bernama LaraPress.
+<img width="428" height="37" alt="image" src="https://github.com/user-attachments/assets/5d07d6e8-b32d-4c23-86bf-3724045d22d0" />
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+### Langkah 2: Masuk ke Folder Proyek
+<img width="274" height="84" alt="image" src="https://github.com/user-attachments/assets/59d97ed8-b780-4c9d-bf60-a6d006a920ee" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+### Langkah 3: Jalankan Server Artisan
+<img width="416" height="105" alt="image" src="https://github.com/user-attachments/assets/57d3f363-f9dd-4858-8e88-a8706b34b9f3" />
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+### Langkah 4:Membuat file welcome.blade.php
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d7b811a2-893d-42d0-ba8f-1da67576cf8f" />
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+#### Hasil
+<img width="1366" height="684" alt="image" src="https://github.com/user-attachments/assets/afca541b-ba72-4a6e-adb2-a4f7f2a67d8d" />
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Langkah 5:Membuat file about.blade.php
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ae206843-96e9-4a90-a5c7-08d10f6638d7" />
+
+#### Hasil
+<img width="1365" height="687" alt="image" src="https://github.com/user-attachments/assets/8d029bef-b56f-4196-98d8-292ba1c4d6d7" />
+
+---
+
+### Langkah 6:Membuat file contact.blade.php
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f47ce46c-5171-4347-bc0b-01a87e9921f3" />
+
+#### Hasil
+<img width="1365" height="687" alt="image" src="https://github.com/user-attachments/assets/8d186e25-a7e8-4eb8-8bb2-75aca794f02e" />
+
+
